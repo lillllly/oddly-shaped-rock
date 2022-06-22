@@ -1,0 +1,60 @@
+
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(images/oddlyshapedstone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.container .header{
+    width: 80%;
+    height: 53px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header h1 a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+
+.container .nav{
+    width: 500px;
+}
+
+.nav ul{
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav ul li{
+    list-style: none;
+    
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.container .nav ul li:hover{
+    color: rgb(135, 132, 137);
+}
+
+
